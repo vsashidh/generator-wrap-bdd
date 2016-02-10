@@ -1,0 +1,31 @@
+{
+  "name": "generator-wrap-bdd",
+  "version": "1.0.0",
+  "description": "generator to create base structure for end users of wrap-bdd package",
+  "files": [
+    "app",
+    "router"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsashidh/generator-wrap-bdd.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator-wrap-bdd"
+  ],
+  "author": "Vivek Sashidharan <vsashidharan@foundationmedicine.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsashidh/generator-wrap-bdd/issues"
+  },
+  "homepage": "https://github.com/vsashidh/generator-wrap-bdd#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.22.5"
+  }
+}

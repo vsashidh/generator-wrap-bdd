@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Settings>
+    <DEV URL="<%= devURL %>" User="user" Password="password">
+    <DB Name="sqlwebdev001" User="user" Password="password"></DB>  
+    <DefaultBrowser Browser="IE8"></DefaultBrowser>
+    <DataSet InputData="\\corp.local\xxx\yyy\.....TestInput.xls"></DataSet>
+    <TestLogFile TC-Log ="\\corp.local\xxx\yyy\...\TC-Log"></TestLogFile>
+</DEV>
+<QA URL="<%= qaURL %>" User="user" Password="password">
+    <DB Name="sqlwebqa001" User="user" Password="password"></DB>  
+    <DefaultBrowser Browser="IE8"></DefaultBrowser>
+    <DataSet InputData="\\corp.local\xxx\yyy\.....TestInput.xls"></DataSet>
+    <TestLogFile TC-Log ="\\corp.local\xxx\yyy\...\TC-Log"></TestLogFile>
+</QA>
+<STG URL="<%= stgURL %>" User="user" Password="password">
+    <DB Name="sqlstg001" User="user" Password="password"></DB>
+    <DefaultBrowser Browser="IE8"></DefaultBrowser>
+    <DataSet InputData="\\corp.local\xxx\yyy\.....TestInput.xls"></DataSet>
+    <TestLogFile TC-Log ="\\corp.local\xxx\yyy\...\TC-Log"></TestLogFile>
+</STG>
+<PROD URL="<%= prodURL %>" User="user" Password="password" local="https://localhost">
+    <DB Name="sqlprod001" User="user" Password="password"></DB>
+    <DefaultBrowser Browser="IE8"></DefaultBrowser>
+    <DataSet InputData="\\corp.local\xxx\yyy\.....TestInput.xls"></DataSet>
+    <TestLogFile TC-Log ="\\corp.local\xxx\yyy\...\TC-Log"></TestLogFile>
+</PROD>  
+<LOCAL URL="<%= localURL %>" User="user" Password="password" local="https://localhost">
+    <DB Name="sqldlocal" User="user" Password="password"></DB>
+    <DefaultBrowser Browser="IE8"></DefaultBrowser>
+    <DataSet InputData="\\corp.local\xxx\yyy\.....TestInput.xls"></DataSet>
+    <TestLogFile TC-Log ="\\corp.local\xxx\yyy\...\TC-Log"></TestLogFile>
+</LOCAL>
+</Settings>
