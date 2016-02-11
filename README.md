@@ -3,7 +3,7 @@ generator to create base structure for end-user of wrap-bdd package
 
 # Install instructions
 1. Download and install nodejs
-2. Run :  `npm install -g yo generator-wrap-bdd`
+2. Run :  `npm install -g yo generator-wrap-bdd cucumber`
 3. Create a local folder for storing the necessary cucumber-js artifacts :  `mkdir bdd`
 4. `cd bdd`
 5. `yo wrap-bdd`
