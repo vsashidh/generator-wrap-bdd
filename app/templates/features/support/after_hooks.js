@@ -3,8 +3,10 @@ var AfterHooks = function () {
 
 		// after scenario tasks goes here:
 		debugger
-		this.testDriver.close(this.browser);
-
+		if(this.browser !== null){
+			this.testDriver.close(this.browser);
+		}
+		
 		//garbage collecting
 		this.browser = null;
 		this.testDriver = null; //making testDriver object unreachable for garbage collection.
