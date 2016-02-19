@@ -39,6 +39,5 @@ Once you have the feature and step file created, to initiate the interaction wit
       string_project_name,
       string_full_name,
       callback);
-      
-      where the first three parameters would be string objects and the last a callback function provided by cucumber-js step function.
 </code></pre>
+where the first three parameters would be string objects and the last a callback function provided by cucumber-js step function. The calback function is how the current operation being performed will be blocked until the test tool completes processing and returns a result.
