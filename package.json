@@ -1,6 +1,6 @@
 {
   "name": "generator-wrap-bdd",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "generator to create base structure for end users of wrap-bdd package",
   "files": [
     "app",
