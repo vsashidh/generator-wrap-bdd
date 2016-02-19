@@ -21,7 +21,7 @@ Still need to work on this.
 1. There are three environment variables which is required for running namely 
     1. envName: `set envName=DEV` Currently supports all root XML node elements in the `Utilities/envs.xml` file
 
-    2. testBrowser (OPTIONAL if you prefer to launch browser from within the test script): `set testBrowser=chrome` Currently supports all browsers listed in your `<path-to-user-home>/.config/browser-launcher2/config.json`
+    2. testBrowser (OPTIONAL if you prefer to launch browser from within the test): `set testBrowser=chrome` Currently supports all browsers listed in your `<path-to-user-home>/.config/browser-launcher2/config.json`
 
     3. oletesttool: `set oletesttool=TestComplete` Currently supports TestComplete, TestExecute
 
