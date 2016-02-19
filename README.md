@@ -29,7 +29,7 @@ Still need to work on this.
 
 # Writing features and step files
 
-This tool will create the necessary folder hierarchy to support the development of behavior driven tests. I will defer you to review documentation pertaining to writing a feature file and step file at https://github.com/cucumber/cucumber-js. 
+This tool will create the necessary folder hierarchy to support the development of behavior driven tests. I will defer you to review documentation pertaining to writing a feature file and step file to https://github.com/cucumber/cucumber-js. 
 
 A noteworthy point is the ability of cucumber-js to provide you a stub step file once you have created your feature file. 
 
@@ -40,4 +40,4 @@ Once you have the feature and step file created, to initiate the interaction wit
       string_full_name,
       callback);
 </code></pre>
-where the first three parameters would be string objects and the last a callback function provided by cucumber-js step function. The calback function is how the current operation being performed will be blocked until the test tool completes processing and returns a result.
+where the first three parameters would be string objects and the last a callback function provided by cucumber-js step function. The callback function is how the current operation being performed will be blocked until the test tool completes processing and returns result.
